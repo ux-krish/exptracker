@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/exptracker/static/css/main.9f427267.css",
+    "main.js": "/exptracker/static/js/main.332b42cd.js",
+    "index.html": "/exptracker/index.html",
+    "main.9f427267.css.map": "/exptracker/static/css/main.9f427267.css.map",
+    "main.332b42cd.js.map": "/exptracker/static/js/main.332b42cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f427267.css",
+    "static/js/main.332b42cd.js"
+  ]
+}

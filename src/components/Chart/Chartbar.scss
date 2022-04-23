@@ -5,7 +5,6 @@
     align-items: center;
     .inner {
       height: 100%;
-      width: 100%;
       border: 1px solid #021f2a;
       border-radius: 12px;
       background-color: #ffffff;
@@ -14,8 +13,8 @@
       flex-direction: column;
       justify-content: flex-end;
         .fill {
-            background-color: #4826b9;
-            width: 15px;
+            background-color: #ff00a5;
+            width: 13px;
             transition: all 0.3s ease-out;
           }
       }

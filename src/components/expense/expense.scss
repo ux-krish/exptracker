@@ -25,6 +25,10 @@
             text-align: left;
             flex-wrap: wrap;
             flex: 1;
+            @media (max-width:600px){
+              flex-direction: column;
+              align-items: flex-end;
+            }
             h2 {
                 color: #3a3a3a;
                 font-size: 1rem;
@@ -37,6 +41,9 @@
                   display: flex;
                   align-items: center;
                   column-gap: 1rem;
+                  @media (max-width:600px){
+                    column-gap: 0.5rem;
+                  }
               }
           }
           .price {
@@ -54,7 +61,9 @@
             border: 1px solid #021f2a;
             padding: 2rem 2rem;
             border-radius: 12px;
-            
+            @media (max-width:600px){
+              padding: 0.5rem 2rem;
+            }
           }
           .qty {
             font-size: 1rem;

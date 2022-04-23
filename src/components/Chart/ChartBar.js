@@ -16,7 +16,7 @@ const ChartBar = (props) => {
   return (
     <motion.div className='chart-bar' initial={{opacity:0}} animate={{opacity: 1}} transition={{ duration: 1 }} exit={{opacity: 0}}>
         <div className='inner'>
-            <div className='fill' style={{height : fillHeight, backgroundColor: '#27c4ff'}}></div>
+            <div className='fill' style={{height : fillHeight}}></div>
         </div>
         <div className='label'>{props.label}</div>
     </motion.div>

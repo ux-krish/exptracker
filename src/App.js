@@ -6,7 +6,7 @@ import Expense from './components/expense/Expense';
 const DUMMY_DATA = [
   {
     id : "e1",
-    title : "Fresh Creme Cake",
+    title : "Demo Title",
     qty : 1,
     price : 450,
     date : new Date(2021,6,17)

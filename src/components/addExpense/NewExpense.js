@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import Card from '../UI/Card'
 import ExpenseForm from './ExpenseForm'
 import "./NewExpense.scss"
-import { motion, AnimatePresence } from "framer-motion"
+import { motion } from "framer-motion"
 
 const NewExpense = (props) => {
   const [isEditing, setIsEditing] = useState(false);

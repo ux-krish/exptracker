@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Chartbar.scss"
-import { motion, AnimatePresence } from "framer-motion"
+import { motion } from "framer-motion"
 
 const ChartBar = (props) => {
 
@@ -11,7 +11,7 @@ const ChartBar = (props) => {
       
   }
 
-  console.log(props.maxValue);
+  //console.log(props.maxValue);
     
   return (
     <motion.div className='chart-bar' initial={{opacity:0}} animate={{opacity: 1}} transition={{ duration: 1 }} exit={{opacity: 0}}>
